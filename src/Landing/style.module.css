@@ -1,0 +1,48 @@
+div.order {
+    color: white;
+    background-color: var(--main-orange);
+    font-size: 110%;
+    text-align: center;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+button.start {
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px 18px 0px;
+    border-left: 55px solid black;
+    font-weight: 1000;
+    transition: all 120ms linear;
+    cursor: pointer;
+}
+
+button.start:focus {
+    box-shadow: inset 0px 3px 8px -2px black;
+}
+
+button.start::before {
+    display: inline-block;
+    content: url(../graphics/p-slice.svg);
+    position: relative;
+    top: 5px;
+    left: -38px;
+    z-index: 2;
+}
+
+button.start:hover, button.start:active {
+    background-color: black;
+    color: white;
+    transition: all 120ms linear;
+}
+
+p {
+    color: black;
+    font-size: 60%;
+    font-weight: 500;
+    text-transform: none;
+
+}

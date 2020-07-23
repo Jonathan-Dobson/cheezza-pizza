@@ -1,0 +1,11 @@
+:root {
+    --main-orange: rgb(255, 103, 27);
+}
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+button {
+    outline-style: none;
+    cursor: pointer;
+}
