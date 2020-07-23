@@ -20,7 +20,7 @@ export default ({setNumpad,changeQuantity,itemId}) => {
                 <button className={style.button} onClick={()=>changeQuantity(itemId,9)}>9</button>
             </div>
             <div>
-                <button className={style.button} onClick={()=>{setNumpad(false); changeQuantity(itemId,0)}}><img width="26" src={trash} /></button>
+                <button className={style.button} onClick={()=>{setNumpad(false); changeQuantity(itemId,0)}}><img width="26" src={trash} alt="remove all items" /></button>
                 <button className={style.button} onClick={()=>{setNumpad(false); changeQuantity(itemId,0)}}>0</button>
                 <button className={style.button} onClick={()=>setNumpad(false)}>&darr;</button>
                 
