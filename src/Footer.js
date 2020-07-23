@@ -2,7 +2,6 @@ import React from 'react'
 
 export default () => <footer style={{
         textAlign: 'center',
-        margin: 'auto',
         margin: 20,
         color: '#242424'
       }}>
