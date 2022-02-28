@@ -24,8 +24,8 @@ export default connect(state=>({items:state.itemCount,animate:state.startAddAnim
                 My Account
             </Link>
             {/* { props.items > 0 && */}
-            <Link className={bagVisibility} id={props.animate?style.animate:null} href="#">
-                <div className={style.bag} to="#"></div>
+            <Link className={bagVisibility} id={props.animate?style.animate:null} to="/">
+                <div className={style.bag}></div>
                 <div className={style.items}>{props.items}</div>
             </Link>
             {/* } */}

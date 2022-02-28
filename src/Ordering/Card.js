@@ -4,6 +4,8 @@ import card from './card.module.css'
 import {connect} from 'react-redux'
 import Numpad from './Numpad'
 
+
+
 export default connect(state=>({items:state.itemCount,animate:state.startAddAnimation}))(({item,dispatch}) => {
     const [quantity, setQuantity] = useState(0)
     const [showNumpad, setNumpad] = useState(false)

@@ -1,0 +1,13 @@
+
+MicroInteractions:
+focuses on intuition and how to enhance it with subltle visual signals.
+A way to reinforce user intuition by reacting to an action the user makes.
+builds confidence
+improves comprehension of functionality of the software
+improves satisfaction and happiness
+leads to a positive and memorable experience
+increases probability for repeat customer
+increases probability for sharing by word of mouth
+
+
+Hi I'm jonathan. I'm a react developer. I decided to try something new by challenging myself to reproduce an online ordering setup similar little caesars.com. I just started this project and I'm sure it will take weeks or even months to make a complete ordering system. Nonetheless, I'd like to share what I have so far. Here is the beginning of my pizza website I named cheezapizza. Its built with react and redux and currently running on my localhost.

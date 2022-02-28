@@ -7,6 +7,7 @@ import { Switch, Route } from 'react-router-dom'
 import Footer from './Footer'
 
 function App() {
+
   return (
     <div className="App">
       <Navbar />
